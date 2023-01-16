@@ -1,11 +1,12 @@
-let  name="Ozodbek";
-let surName = 'Nazarov';
-let laptopName = 'Acer';
-let age = 12;
-let birthYear = 2007;
+let name = prompt('ismingiz nima?');
+let surName = prompt('familiyanggiz nima?') ;
+let laptopName = prompt ('noutbookiz?');
+let age = prompt ('yoshinggiz?');
+let birthYear = prompt ('nechinchi yilsiz?');
 
-console.log(name);
-console.log(surName);
-console.log(laptopName);
-console.log(age);
-console.log(birthYear);
+let obj= {}
+obj.name = name;
+obj.surName = surName;
+obj.laptopName = laptopName;
+obj.age = age;
+obj.birthYear = birthYear;
