@@ -10,3 +10,4 @@ obj.surName = surName;
 obj.laptopName = laptopName;
 obj.age = age;
 obj.birthYear = birthYear;
+console.log(obj)
